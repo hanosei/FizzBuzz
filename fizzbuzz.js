@@ -10,6 +10,9 @@ function fizzBuzz() {
         else if (number % 5 === 0) {
             console.log("Buzz");
         }
+        else if ( number % 7 === 0) {
+            console.log("Bang");
+           }
         else {
             console.log(number);
         }
