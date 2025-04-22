@@ -3,7 +3,10 @@ function fizzBuzz() {
     while (number <= 100) {
         if (number % 3 === 0 && number % 5 === 0) {
             console.log("FizzBuzz");
-        }  
+        }
+        else if (number % 7 === 0 && (number % 3 === 0 || number % 5 === 0)) {
+            console.log('FizzBang');
+        }
         else if (number % 3 === 0) {
             console.log("Fizz");
         }
@@ -12,7 +15,7 @@ function fizzBuzz() {
         }
         else if ( number % 7 === 0) {
             console.log("Bang");
-           }
+        }
         else {
             console.log(number);
         }
